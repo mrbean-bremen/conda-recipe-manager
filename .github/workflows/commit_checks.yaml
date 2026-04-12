@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - main
+      - test_pyfakefs_error
   pull_request:
 
 name: Commit Checks
