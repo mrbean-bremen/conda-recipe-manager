@@ -9,7 +9,7 @@ dependencies:
   - make
   - mypy
   - python >=3.11
-  - pytest
+  - pytest ==9.0.2
   - pytest-cov
   - pytest-socket >=0.7.0
   - pytest-xdist

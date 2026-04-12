@@ -51,7 +51,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest==9.0.2"]
 conda_build = ["conda-build"]
 
 [project.scripts]

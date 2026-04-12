@@ -43,10 +43,10 @@ test:
     - tests/
   requires:
     - pip
-    - pytest
+    - pytest ==9.0.2
     - pytest-xdist
     - pytest-socket >=0.7.0
-    - pyfakefs >=6.0.0
+    - pyfakefs ==6.1.5
   commands:
     - pip check
     - python -m pytest -n auto --ignore=tests/test_aux_files tests/
